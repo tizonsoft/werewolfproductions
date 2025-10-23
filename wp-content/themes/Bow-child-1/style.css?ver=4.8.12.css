@@ -1,0 +1,55 @@
+/*
+ Theme Name:     Bow Child 1
+Theme URI: http://www.themesawesome.com
+ Description:    Bow Child Theme
+Author: Themes Awesome
+Author URI: http://www.themesawesome.com
+ Template:       bow
+ Version:        1.0.0
+*/
+
+@import url("../bow/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.homepage .discover { font-size: 20px; opacity: 1; }
+
+.frame { height: auto !important }
+
+.logo { height: 40px; }
+
+.loader { background-image: url('../../uploads/2016/07/GIF_WWP_estatico.gif') !important; background-size: 250px 250px !important; }
+
+.page-id-1582 .header .menu { background-image: url('../../uploads/2016/06/menu_icon.png'); opacity: 1; }
+.page-id-1582 .header .menu.close  { background-image: url('../bow/img/misc/navigation-menu-close.png'); background-size: 17px 17px;}
+
+.header .menu:hover { opacity: 0.75; }
+
+.header.transparent { background-color: rgb(254, 254, 254); }
+
+.page-id-1582 .header.transparent { background-color: rgba(254, 254, 254, 0) !important; }
+
+.facebook-icon:hover { opacity: 0.5; }
+
+.instagram-icon:hover { opacity: 0.5; }
+
+.vimeo-icon:hover { opacity: 0.5; }
+
+@media only screen and (max-width: 508px) { 
+section.work-mansonry .navigate { margin-bottom: 100px !important;}
+}
+
+@media only screen and (max-width: 767px) { 
+section.work-mansonry .navigate ul li { width: 80%! important; text-align: left !important; }
+section.work-mansonry .navigate { margin-top: 40px !important; margin-left: 0px !important; }
+.header { padding-top: 30px !important; height: 140px !important;}
+.text { text-align: left !important; }
+.frame { height: auto !important }
+.fluid-width-video-wrapper { padding-top: 100% !important }
+.footer { bottom: 0px; }
+}
+
+@media only screen and (min-width: 1919px) { 
+.videosgif { width: 376px !important; }
+}
